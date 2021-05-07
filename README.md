@@ -31,6 +31,7 @@ In order to select which features can make a high correlate with the target vari
 
 An outlier is an unusually large or small observation. Outliers can have a disproportionate effect on statistical results, which can result in misleading interpretations. In our dataset, we detect outliers through box plot which indicate a huge outlier in systolic blood pressure measures which goes up to 16000 while the interquartile range indicates the upper limit is about 170 mmHg and the lower limit is about 90 mmHg, and outliers in diastolic blood pressure go up to 10000 mmHg while the interquartile range indicates the upper limit is about 105 and the lower limit is about 65 mmHg, by removing the outlier in systolic blood pressure, diastolic blood pressure, and BMI the dataset is ready for the standardization step.
 
+![image](https://user-images.githubusercontent.com/83831812/117480417-dd096100-af61-11eb-93b6-1427012aabf3.png)
 
 
 
@@ -57,6 +58,7 @@ An Artificial Neural Network (ANN) is the component of artificial intelligence t
 
 
              
+![image](https://user-images.githubusercontent.com/83831812/117480612-1f32a280-af62-11eb-906d-32ed41b34e7b.png)
 
 
 
@@ -76,6 +78,7 @@ Random Forest developed by Leo Breiman [6] is a group of un-pruned classificatio
 
 
 
+![image](https://user-images.githubusercontent.com/83831812/117480667-2fe31880-af62-11eb-925b-065517eab7b2.png)
 
 
 
@@ -100,6 +103,7 @@ Random Forest developed by Leo Breiman [6] is a group of un-pruned classificatio
 Semi-supervised learning is the type of machine learning that uses a combination of a small amount of labeled data and a large amount of unlabeled data to aids and bias the clustering of unlabeled data [7]. This approach of machine learning is a combination of supervised machine learning, which uses labeled training data, and unsupervised learning, which uses unlabeled data, semi-supervised use of unlabeled data in conjunction with a small amount of labeled data can produce considerable improvement in learning accuracy [8]. A semi-supervised clustering technique is used to label the unlabeled data and further helps to improve the training of the classifier. Shown in Fig 5, The logistic regression classification is used for the process of classification to provide a better internal structure of the data in the process of semi-supervised clustering. Both labeled and unlabeled data are used by the model and help to classify the unlabeled data with better results, the simplicity of the classification process helps to give better results and is more efficient [8].
 
 
+![image](https://user-images.githubusercontent.com/83831812/117480712-40938e80-af62-11eb-8cf4-6871f7887960.png)
 
 
 
@@ -112,6 +116,7 @@ Our experiments were conducted on Python 3.7 with 70,000 observations, TensorFlo
 
 
 
+![image](https://user-images.githubusercontent.com/83831812/117480827-615be400-af62-11eb-8bed-be9f602d088f.png)
 
 
 
